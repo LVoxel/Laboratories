@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Разметка</title>
+    <style>
+        /* Стили для элементов разметки */
+        .header1 {
+            background-color: #984807; /* Цвет фона заголовка 1 */
+            color: #fff; /* Цвет текста заголовка 1 */
+            padding: 10px; /* Оставляем прежний внутренний отступ для лучшей видимости */
+            margin: 0; /* Убираем отступы */
+        }
+
+        .col1 {
+            background-color: #fac090; /* Цвет фона колонки 1 */
+            color: #000; /* Цвет текста колонки 1 */
+            padding: 10px; /* Оставляем прежний внутренний отступ для лучшей видимости */
+            margin: 0; /* Убираем отступы */
+        }
+
+        .header2 {
+            background-color: #77933c; /* Цвет фона заголовка 2 */
+            color: #fff; /* Цвет текста заголовка 2 */
+            padding: 10px; /* Оставляем прежний внутренний отступ для лучшей видимости */
+            margin: 0; /* Убираем отступы */
+        }
+
+        .col2 {
+            background-color: #c3d69b; /* Цвет фона колонки 2 */
+            color: #000; /* Цвет текста колонки 2 */
+            padding: 10px; /* Оставляем прежний внутренний отступ для лучшей видимости */
+            margin: 0; /* Убираем отступы */
+        }
+
+        .header3 {
+            background-color: #376092; /* Цвет фона заголовка 3 */
+            color: #fff; /* Цвет текста заголовка 3 */
+            padding: 10px; /* Оставляем прежний внутренний отступ для лучшей видимости */
+            margin: 0; /* Убираем отступы */
+        }
+
+        .col3 {
+            background-color: #95b3d7; /* Цвет фона колонки 3 */
+            color: #000; /* Цвет текста колонки 3 */
+            padding: 10px; /* Оставляем прежний внутренний отступ для лучшей видимости */
+            margin: 0; /* Убираем отступы */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            border: 2px solid #ccc;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        .column {
+            flex: 1;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h2 class="header1">Header 1</h2>
+            <p class="col1">Column 1</p>
+        </div>
+        <div class="column">
+            <h2 class="header2">Header 2</h2>
+            <p class="col2">Column 2</p>
+        </div>
+        <div class="column">
+            <h2 class="header3">Header 3</h2>
+            <p class="col3">Column 3</p>
+        </div>
+    </div>
+</body>
+</html>
